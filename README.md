@@ -16,6 +16,7 @@ This project is a Flask-based web application that scrapes cryptocurrency price 
   - Fetches cryptocurrency data (name, price, and timestamp) from CoinMarketCap for Bitcoin and Algorand.
   - Stores data in a Pandas DataFrame for further processing and visualization.
 - **Data Visualization**:
+  ![Example Dashboard Output](API_Push_Project.PNG)
   - Generates line charts for each cryptocurrency, showing price changes over time.
   - Charts are embedded into the web interface using Base64 encoding.
 - **Flask Web Application**:
