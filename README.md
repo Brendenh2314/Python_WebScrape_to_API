@@ -24,6 +24,7 @@ This project is a Flask-based web application that scrapes cryptocurrency price 
   - `/data`: Provides the scraped data in JSON format.
 - **Threading**:
   - Runs the data scraper at regular intervals (default: 60 seconds) while simultaneously hosting the Flask web application.
+  - Note there is a commented out hourly graph that can be used instead of minutes (sleep_interval = 3600).
 
 ## Key Features
 - Automated data scraping for real-time cryptocurrency price updates.
